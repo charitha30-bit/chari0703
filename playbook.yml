@@ -4,7 +4,7 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4844/workspace/chari0703/target/chari0703"
+        src: "/var/snap/jenkins/4853/workspace/chari0703/target/chari0703"
         dest: "/opt/tomcat/webapps/chari0703.war"
         remote_src: no
 
